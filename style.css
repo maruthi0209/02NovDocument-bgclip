@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+div {
+    width: 100vw;
+    height: 20vh;
+    border: 10px dotted black;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container1 {
+    background-color: blue;
+    background-clip: border-box;
+    
+}
+
+.container2 {
+    padding: 20px;
+    background-color: lightcoral;
+    background-clip: padding-box;
+}
+
+.container3 {
+    padding: 20px;
+    background-color: lightgreen;
+    background-clip: content-box;
+}
+
+.container4 {
+    padding: 20px;
+    background-color: darkgrey;
+    background-clip: border-area;
+}
+
+.container5 {
+    padding: 20px;
+    background-color: yellow;
+    background-clip: text;
+    color: black;
+}
